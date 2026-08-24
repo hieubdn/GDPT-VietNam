@@ -1,9 +1,9 @@
 <table align="center" border="0" cellspacing="0" cellpadding="0" frame="void" rules="none">
-<tr>
-<td width="200">
+<tr border="0">
+<td width="150" border="0">
 <img src="apps/web/app/icon.png" width="150" alt="GĐPT Việt Nam logo">
 </td>
-<td>
+<td border="0">
 
 <h1 align="center">Gia Đình Phật Tử Việt Nam</h1>
 <h3 align="center">Bi - Trí - Dũng</h3>
