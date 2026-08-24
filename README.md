@@ -12,7 +12,6 @@
   <img src="https://img.shields.io/badge/languages-4-red" alt="languages 4">
 </p>
 
----
 
 <h3 align="center">Built with the tools and technologies:</h3>
 
