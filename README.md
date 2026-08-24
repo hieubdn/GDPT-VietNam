@@ -1,16 +1,6 @@
-<table align="center" border="0" cellspacing="0" cellpadding="0" frame="void" rules="none">
-<tr border="0">
-<td width="150" border="0">
-<img src="apps/web/app/icon.png" width="150" alt="GĐPT Việt Nam logo">
-</td>
-<td border="0">
-
-<h1 align="center">Gia Đình Phật Tử Việt Nam</h1>
-<h3 align="center">Bi - Trí - Dũng</h3>
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src=".github/assets/logo.png" width="480" alt="Gia Đình Phật Tử Việt Nam - Bi Trí Dũng">
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/last%20commit-august-blue" alt="last commit august">
