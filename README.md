@@ -1,6 +1,6 @@
 <table align="center" border="0" cellspacing="0" cellpadding="0" frame="void" rules="none">
 <tr>
-<td width="110">
+<td width="200">
 <img src="apps/web/app/icon.png" width="150" alt="GĐPT Việt Nam logo">
 </td>
 <td>
