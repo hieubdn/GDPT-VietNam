@@ -30,7 +30,7 @@
   }
 }
 
-.slideFromLeft {
+.fromLeft {
   &.hidden {
     opacity: 0;
     transform: translateX(-50px);
@@ -42,7 +42,7 @@
   }
 }
 
-.slideFromRight {
+.fromRight {
   &.hidden {
     opacity: 0;
     transform: translateX(50px);
@@ -54,7 +54,7 @@
   }
 }
 
-.slideFromTop {
+.fromTop {
   &.hidden {
     opacity: 0;
     transform: translateY(-50px);
@@ -66,7 +66,7 @@
   }
 }
 
-.slideFromBottom {
+.fromBottom {
   &.hidden {
     opacity: 0;
     transform: translateY(50px);

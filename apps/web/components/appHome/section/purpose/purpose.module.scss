@@ -1,0 +1,134 @@
+$brand-green: #005c05;
+$brand-green-dark: #0f3d22;
+$border-color: #e5e7eb;
+$text-primary: #000;
+$text-muted: #4b5563;
+
+.purpose {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+.quote {
+  margin: 0 auto;
+  max-width: 720px;
+  font-style: italic;
+
+  .quoteMark {
+    margin: 0 4px;
+    font-size: 40px;
+    font-style: normal;
+    line-height: 0;
+    vertical-align: -12px;
+    color: $brand-green;
+  }
+}
+
+.intro {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  width: 100%;
+  margin-top: 16px;
+  text-align: left;
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+    height: 100%;
+    padding: 24px;
+    background: #ffffff;
+    border: 1px solid $border-color;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    transition:
+      transform 0.25s ease,
+      box-shadow 0.25s ease;
+
+    &:hover {
+      box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1);
+    }
+
+    .cardHeader {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+
+      .cardBadge {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background: $brand-green;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+      }
+
+      .cardLabel {
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: $brand-green;
+      }
+    }
+
+    .cardBody {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      margin: 0;
+
+      dt {
+        margin-top: 14px;
+        font-size: 16px;
+        font-weight: 700;
+        color: $brand-green-dark;
+
+        &:first-child {
+          margin-top: 0;
+        }
+      }
+
+      dd {
+        color: #4b5563;
+        font-size: 16px;
+        font-family: "DM Sans", sans-serif;
+        font-weight: 390;
+        letter-spacing: 1.5px;
+        line-height: 32px;
+      }
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .title {
+    font-size: 26px;
+  }
+
+  .quote {
+    font-size: 18px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

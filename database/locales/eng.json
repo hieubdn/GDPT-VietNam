@@ -1,0 +1,68 @@
+{
+    "header": {
+        "home": "Home",
+        "buddhist-studies": "Buddhist Studies",
+        "training": "Training",
+        "division-activities": "Division Activities",
+        "post": "Post Article"
+    },
+    "purpose": {
+        "title": "The Purpose of the Vietnamese Buddhist Youth Association",
+        "quote": "To cultivate young adults, teenagers, and children in faith in the Buddha, guiding them to become true Buddhists who help serve the Dharma and build society.",
+        "intro": "This purpose carries a comprehensive educational meaning grounded in the spirit of Buddhist teachings, comprising two core aspects:",
+        "selfBenefit": {
+            "label": "Self-Benefit",
+            "title": "Cultivating Oneself",
+            "audienceLabel": "Audience",
+            "audience": "Aimed at educating young adults (18 years and older), teenagers (13 to 17 years old), and children (6 to 12 years old).",
+            "goalLabel": "Goal",
+            "goal": "To nurture faith in the Three Jewels and guide members to become true Buddhists. A true Buddhist lives by the spirit of Compassion - Wisdom - Courage, upholds the lay precepts, and cultivates physical health, wisdom, and morality in a well-rounded way."
+        },
+        "otherBenefit": {
+            "label": "Altruism",
+            "title": "Contributing to Life",
+            "dharmaLabel": "Serving the Dharma",
+            "dharma": "Following in the footsteps of earlier generations to preserve, develop, and pass on the noble moral values of Buddhism.",
+            "societyLabel": "Building Society",
+            "society": "Cultivating good citizens who are responsible toward their family, community, and nation, thereby helping to reform and advance society in the spirit of Buddhist compassion, equality, and peace."
+        }
+    },
+    "motto": {
+        "title": "The Meaning of the Motto \"Compassion - Wisdom - Courage\"",
+        "emblemAlt": "Compassion - Wisdom - Courage emblem of the Vietnamese Buddhist Youth Association",
+        "origin": "These three virtues are drawn from the titles of three great Bodhisattvas in Mahayana Buddhism: Avalokiteshvara, the Bodhisattva of Great Compassion; Manjushri, the Bodhisattva of Great Wisdom; and Mahasthamaprapta (or Vajrapani), the Bodhisattva of Great Courage.",
+        "compassion": {
+            "name": "Compassion",
+            "fullName": "Loving-Kindness",
+            "definitionLabel": "Definition",
+            "definition": "A vast, selfless love that makes no distinction between beings.",
+            "meaningLabel": "Meaning",
+            "meaning": "Members of the GDPT always cultivate empathy, learning to share in others' feelings and to help everyone and everything around them ease their suffering."
+        },
+        "wisdom": {
+            "name": "Wisdom",
+            "fullName": "Insight",
+            "definitionLabel": "Definition",
+            "definition": "Right and clear understanding, undimmed by ignorance or prejudice.",
+            "meaningLabel": "Meaning",
+            "meaning": "Wisdom allows GDPT members to clearly distinguish right from wrong, good from bad, wholesome from unwholesome. It guides Compassion onto the right path, helping others effectively and practically rather than blindly."
+        },
+        "courage": {
+            "name": "Courage",
+            "fullName": "Diligence / Fortitude",
+            "definitionLabel": "Definition",
+            "definition": "A resilient will and strong resolve to overcome every hardship and trial, and to conquer oneself.",
+            "meaningLabel": "Meaning",
+            "meaning": "Those with Courage never retreat before adversity, dare to admit their faults, and are determined to better themselves. Courage also gives a Buddhist the bravery to stand up for what is right and to act for the benefit of the community."
+        },
+        "relationship": {
+            "title": "A Dialectical Relationship",
+            "intro": "These three virtues are always interconnected and mutually reinforcing; lacking any one of them, the character of a true Buddhist cannot be complete:",
+            "points": [
+                "Compassion without Wisdom easily leads to kindness misplaced, causing harm to others.",
+                "Wisdom without Compassion easily turns a person selfish and cold, using intelligence for personal gain.",
+                "Compassion and Wisdom without Courage leave every good intention and loving thought only as an idea, never translated into real action."
+            ]
+        }
+    }
+}

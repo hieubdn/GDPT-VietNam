@@ -1,0 +1,68 @@
+{
+    "header": {
+        "home": "Trang chủ",
+        "buddhist-studies": "Tu học",
+        "training": "Huấn luyện",
+        "division-activities": "Sinh hoạt ngành",
+        "post": "Đăng Bài"
+    },
+    "purpose": {
+        "title": "Mục đích Gia Đình Phật Tử Việt Nam",
+        "quote": "Đào luyện thanh, thiếu, đồng niên tin Phật thành Phật tử chân chính, góp phần phụng sự Đạo pháp và xây dựng xã hội.",
+        "intro": "Mục đích này mang ý nghĩa giáo dục toàn diện dựa trên nền tảng tinh thần giáo lý Phật giáo, bao gồm hai phương diện cốt lõi sau:",
+        "selfBenefit": {
+            "label": "Tự lợi",
+            "title": "Đào luyện bản thân",
+            "audienceLabel": "Đối tượng",
+            "audience": "Hướng đến việc giáo dục lứa tuổi thanh niên (từ 18 tuổi trở lên), thiếu niên (từ 13 đến 17 tuổi) và đồng niên (từ 6 đến 12 tuổi).",
+            "goalLabel": "Mục tiêu",
+            "goal": "Nuôi dưỡng niềm tin Tam Bảo, hướng dẫn các em thành những Phật tử chân chính. Người Phật tử chân chính là người sống theo tinh thần Bi - Trí - Dũng, giữ gìn các giới pháp tại gia, rèn luyện thể chất, trí tuệ và đạo đức vẹn toàn."
+        },
+        "otherBenefit": {
+            "label": "Lợi tha",
+            "title": "Đóng góp cho cuộc sống",
+            "dharmaLabel": "Phụng sự Đạo pháp",
+            "dharma": "Tiếp bước thế hệ đi trước để bảo tồn, phát triển và truyền tải các giá trị đạo đức Phật giáo tốt đẹp.",
+            "societyLabel": "Xây dựng xã hội",
+            "society": "Tạo ra những công dân tốt, có ý thức trách nhiệm với gia đình, cộng đồng và quốc gia. Từ đó, góp phần cải tạo và thúc đẩy xã hội phát triển theo tinh thần từ bi, bình đẳng và hòa bình của Phật giáo."
+        }
+    },
+    "motto": {
+        "title": "Châm ngôn Gia Đình Phật Tử Việt Nam",
+        "emblemAlt": "Huy hiệu Bi - Trí - Dũng của Gia Đình Phật Tử",
+        "origin": "Bi – Trí – Dũng không chỉ là một châm ngôn, mà còn là tinh thần đồng hành cùng mỗi người trên hành trình tu học và trưởng thành. Đó là nền tảng để nuôi dưỡng một trái tim biết yêu thương, một tâm trí sáng suốt và một ý chí vững vàng, cùng nhau sống đẹp, sống có ích và phụng sự cộng đồng.",
+        "compassion": {
+            "name": "Bi",
+            "fullName": "Từ Bi",
+            "definitionLabel": "Định nghĩa",
+            "definition": "Là lòng thương yêu rộng lớn, không vị kỷ, không phân biệt đối xử.",
+            "meaningLabel": "Ý nghĩa",
+            "meaning": "Nghĩa là đem vui - cứu khổ. Người Phật Tử không thể thản nhiên trước nổi khổ của kẻ khác kể cả loài vật. Cho dù với hành động nhỏ nhặt tầm thường mà diệt trừ được khổ đau, đem an vui cho người và vật thì người Phật Tử quyết không chối từ."
+        },
+        "wisdom": {
+            "name": "Trí",
+            "fullName": "Trí Tuệ",
+            "definitionLabel": "Định nghĩa",
+            "definition": "Là sự hiểu biết đúng đắn, sáng suốt, không bị vô minh hay định kiến che lấp.",
+            "meaningLabel": "Ý nghĩa",
+            "meaning": "Nghĩa là hiểu biết rõ ràng cùng khắp, nhận rõ được chân lý và sự thật. Người Phật Tử không cam tâm chịu dốt và u mê mà phải tìm tòi học hỏi đúng chánh pháp và chân lý. Ngoài ra phải giúp đỡ khai sáng cho mọi người cùng học hỏi hiểu biết như mình."
+        },
+        "courage": {
+            "name": "Dũng",
+            "fullName": "Dũng mãnh",
+            "definitionLabel": "Định nghĩa",
+            "definition": "Ý chí kiên cường, nghị lực mạnh mẽ vượt khó khăn, thử thách để chiến thắng chính mình.",
+            "meaningLabel": "Ý nghĩa",
+            "meaning": "Nghĩa là can đảm tinh tấn, không yếu đuối sợ sệt. Đoàn Viên GĐPT phải vượt qua mọi chướng ngại để tiến đến giác ngộ, cố gắng kiên trì để thắng mọi thử thách gian lao từ bên trong đến bên ngoài, mỉm cười trước nguy hiểm, tự tại trước thất bại để vững chí tiến bước trên đường tu học và hành đạo. "
+        },
+        "relationship": {
+            "title": "Mối quan hệ biện chứng",
+            "intro": "Ba đức tính này luôn gắn liền và bổ trợ cho nhau, thiếu một trong ba thì không thể hoàn thiện nhân cách của một Phật tử chân chính:",
+            "points": [
+                "Có Bi mà thiếu Trí sẽ dễ dẫn đến lòng tốt đặt sai chỗ, gây hại cho người khác.",
+                "Có Trí mà thiếu Bi dễ trở thành người ích kỷ, lạnh lùng, dùng sự thông minh để vụ lợi.",
+                "Có Bi và Trí mà thiếu Dũng thì mọi ý tưởng tốt đẹp, lòng thương người cũng dừng lại ở suy nghĩ, không thể thành hành động thực tế."
+            ]
+        }
+    }
+}
