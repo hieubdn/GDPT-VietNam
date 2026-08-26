@@ -1,9 +1,9 @@
 export type ScrollRevealDirection =
   | 'fadeIn'
-  | 'slideFromLeft'
-  | 'slideFromRight'
-  | 'slideFromTop'
-  | 'slideFromBottom';
+  | 'fromLeft'
+  | 'fromRight'
+  | 'fromTop'
+  | 'fromBottom';
 
 export interface ScrollRevealConfig {
   readonly direction?: ScrollRevealDirection;
@@ -19,6 +19,6 @@ export const SCROLL_REVEAL_DEFAULTS = {
   DURATION: 0.6,
   DELAY: 0,
   THRESHOLD: 0.1,
-  TRIGGER_ONCE: true,
+  TRIGGER_ONCE: false,
   CLASS_NAME: ''
 } as const;

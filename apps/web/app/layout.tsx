@@ -1,29 +1,22 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "./globals.css";
-
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-});
+import { getCurrentLocale } from "@/lib/i18n/get-dictionary";
+import "./globals.scss";
 
 export const metadata: Metadata = {
   title: "GĐPT Việt Nam",
   description: "Gia Đình Phật Tử Việt Nam",
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const locale = await getCurrentLocale();
+
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang={locale}>
+      <body>
         {children}
       </body>
     </html>

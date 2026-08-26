@@ -1,0 +1,204 @@
+$brand-green: #005c05;
+$brand-green-soft: rgba(0, 92, 5, 0.06);
+$border-color: #e5e7eb;
+$text-primary: #000;
+$text-muted: #4b5563;
+
+$compassion-color: #2563eb;
+$compassion-soft: rgba(37, 99, 235, 0.08);
+$wisdom-color: #b45309;
+$wisdom-soft: rgba(180, 83, 9, 0.08);
+$courage-color: #dc2626;
+$courage-soft: rgba(220, 38, 38, 0.08);
+
+.motto {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.heroImage {
+  flex-shrink: 0;
+  width: 500px;
+  height: auto;
+}
+
+.heroText {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: left;
+
+  .title {
+    margin: 0;
+    text-align: center;
+  }
+
+  .origin {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+}
+
+$dark-border: rgba(255, 255, 255, 0.12);
+$dark-text-muted: rgba(255, 255, 255, 0.65);
+$compassion-color-light: #60a5fa;
+$wisdom-color-light: #fbbf24;
+$courage-color-light: #f87171;
+
+.pillars {
+  position: relative;
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 24px;
+  overflow: hidden;
+}
+
+.pillars::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 240px;
+  background-image: radial-gradient(#005c05 1.5px, transparent 1.5px);
+  background-size: 18px 18px;
+  mask-image: radial-gradient(circle at top right, black, transparent 70%);
+  pointer-events: none;
+}
+
+.pillarTabs {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-left: 12px;
+
+  @media (max-width: 768px) {
+    padding: 0;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+.pillarTab {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 20px;
+  border: 2px solid #0f3d22;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #0f3d22;
+  font-weight: 600;
+  background-color: #ffffff;
+  text-align: left;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease;
+
+  @media (max-width: 768px) {
+    width: fit-content;
+  }
+}
+
+.pillarTabDescription {
+  font-size: 14px;
+  color: #0f3d22;
+}
+
+.pillarPanel {
+  position: relative;
+  z-index: 1;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border: 2px solid #0f3d22;
+  border-radius: 14px;
+
+  .pillarPanelTitle {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .pillarPanelText {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+
+    strong {
+      color: #0f3d22;
+    }
+  }
+}
+
+.relationship {
+  padding: 24px;
+  background: $brand-green-soft;
+  border-radius: 16px;
+  text-align: left;
+}
+
+
+.relationshipIntro {
+  margin: 0 0 16px;
+}
+
+.relationshipList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 0;
+  list-style: none;
+}
+
+.relationshipItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: $text-primary;
+}
+
+.relationshipMarker {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: $brand-green;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+@media (max-width: 800px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .heroText {
+    text-align: center;
+  }
+
+  .pillars {
+    grid-template-columns: 1fr;
+  }
+}
